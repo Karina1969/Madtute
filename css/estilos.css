@@ -2,6 +2,11 @@
     margin:0;
     padding: 0;
 }
+
+.colorBorde{
+    background-color: black;
+}
+
 .tituloppal{
     text-align: center; 
 }
@@ -13,12 +18,7 @@
     position: absolute;
 }
 
-.contenedor {
-    display:flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .btnNav{
     background-color: white;
@@ -34,6 +34,7 @@
 .colorBarra{
     background-color: #ad1010;
 }
+
 .itemsBarraNav {
     display: block;
     padding: 10px;
@@ -50,7 +51,13 @@ h3{
     color: #fa2929;
     font-size:30px;    
     
-    
+}
+
+.contenedor {
+    display:flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 .divLogo{
@@ -84,6 +91,7 @@ h3{
     color: white;
     padding:10px;
     margin-top: 40px;
+    width: 10%;
     cursor: pointer;
 }
 
@@ -143,11 +151,12 @@ section h2 {
 }
 
 article {
- padding: 10px;
- border: solid 3px black;
- border-radius: 10px;
- margin: 10px;
+    padding: 10px;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 10px;
 }
+
 .article-img{  width: 100%;
 }
 
@@ -170,12 +179,20 @@ footer{
 .formularioContacto2 {
     display:flex;
     flex-direction: column;
-    align-items: stretch;
-    padding-top: 30px;
+    margin: 30px 150px 30px 150px;    
+    
 }
 
 .labelContacto{
     padding: 20px;
+}
+
+.ingresoForm{
+    height: 20px;
+}
+
+.ingresoFormGde{
+    height: 30px;
 }
 
 .parrafoNosotros {
@@ -200,7 +217,7 @@ footer{
     } 
     .navbar-ul{
         flex-direction: column;
-    list-style: none; 
-    justify-content: center;
+        list-style: none; 
+        justify-content: center;
 }
-}
+}  
