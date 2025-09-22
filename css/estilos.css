@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.parrafoInicio {
+    color: white;
+    font-family: "Leckerli One", cursive;
+    font-size: 50px;
+    position: absolute;
+}
+
+.contenedor {
+    display:flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnNav{
+    background-color: white;
+    color: black;
+}
+
+.btnBusqueda {
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.colorBarra{
+    background-color: #ad1010;
+}
+.itemsBarraNav {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: white;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+}
+
+h3{ 
+    color: #fa2929;
+    font-size:30px;    
+    
+    
+}
+
+.divLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.divCarrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 15px;
+}
+
+.imgbanner{
+    width: 100%;
+
+}
+
+.button-style {  
+    background-color: black;
+    color: white;
+    padding:5px;
+    cursor: pointer;
+}
+
+.button-style2 {  
+    background-color: black;
+    color: white;
+    padding:10px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+.nav-bar{
+    background-color: black;
+}
+
+.navbar-ul {
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+.navbar-li {
+    margin: 15px ;
+    font-family: "Story Script", sans-serif;
+}
+
+.navbar-a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    display:flex;
+    flex-direction: column;
+}
+
+.footer1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer2{
+    text-align: center;
+}
+
+.footer4 { 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2 {
+    font-size:36px;
+    font-family: "Story Script", sans-serif;
+    padding: 30px;
+    text-align: center; 
+}
+
+.nuestras-propuestas{
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+ padding: 10px;
+ border: solid 3px black;
+ border-radius: 10px;
+ margin: 10px;
+}
+.article-img{  width: 100%;
+}
+
+article div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    padding: 20px;
+}
+
+.formularioContacto {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formularioContacto2 {
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 30px;
+}
+
+.labelContacto{
+    padding: 20px;
+}
+
+.parrafoNosotros {
+   font-family: "Story Script", sans-serif;
+   font-size: 25px; 
+   text-align: center;
+   padding: 20px;
+
+}
+/*
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+} */
+
+@media (max-width: 425px){
+    
+    .nuestras-propuestas{
+     display: flex;
+     flex-direction: column;
+    } 
+    .navbar-ul{
+        flex-direction: column;
+    list-style: none; 
+    justify-content: center;
+}
+}
