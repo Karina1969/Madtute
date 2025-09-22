@@ -2,6 +2,9 @@
     margin:0;
     padding: 0;
 }
+.tituloppal{
+    text-align: center; 
+}
 
 .parrafoInicio {
     color: white;
@@ -20,6 +23,7 @@
 .btnNav{
     background-color: white;
     color: black;
+    font-family:"Story Script", sans-serif, cursive;
 }
 
 .btnBusqueda {
@@ -32,14 +36,15 @@
 }
 .itemsBarraNav {
     display: block;
-    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    padding: 10px;
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
     color: white;
     text-decoration: none;
     background: 0 0;
     border: 0;
-}
+    font-family:"Story Script", sans-serif, cursive;
+}    
 
 h3{ 
     color: #fa2929;
