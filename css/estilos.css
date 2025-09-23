@@ -98,23 +98,30 @@ h3{
 
 .nav-bar{
     background-color: black;
+     
 }
+    
 
 .navbar-ul {
     display:flex;
     flex-direction: row;
     list-style: none;
     justify-content: center;
+    
+    
 }
+  
 
 .navbar-li {
     margin: 15px ;
     font-family: "Story Script", sans-serif;
+   
 }
 
 .navbar-a {
     color: white;
     text-decoration: none;
+   
 }
 
 .footer{
@@ -220,4 +227,18 @@ footer{
         list-style: none; 
         justify-content: center;
 }
+/*
+.colorBorde {
+    background-color: white;
+}
+
+.colorBarra {
+    background-color: white;
+}
+    */
+.navbar-toggler{
+    background-color:#ad1010;
+}
+
+
 }  
