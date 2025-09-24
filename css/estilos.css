@@ -60,11 +60,24 @@ h3{
     align-items: center;
 }
 
+.divBanner{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
 .divLogo{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divLogo2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    padding-top: 100px;
 }
 
 .divCarrito{
@@ -76,6 +89,7 @@ h3{
 
 .imgbanner{
     width: 100%;
+    position: relative;
 
 }
 
