@@ -16,36 +16,77 @@
       <img class="gorro" src="../assets/imagenes/logoblanco.jpg" alt="logo de la empresa, gorro cocinero" width="10%">
      </div>
 
-     <nav class="nav-bar">
-        <ul class="navbar-ul">
-            <li class="navbar-li"><a class="navbar-a" href="../index.html">Inicio</a></li>
-            <li class="navbar-li"><a class="navbar-a" href="./nosotros.html">Nosotros</a></li>
-            <li class="navbar-li"><a class="navbar-a" href="./productos.html">Productos</a></li>
-            <li class="navbar-li"><a class="navbar-a" href="./tutoriales.html">Tutoriales</a></li>
-            <li class="navbar-li"><a class="navbar-a" href="./contacto.html">Contacto</a></li>
-        </ul>
-     </nav>
-     <div class= "divCarrito">
-      <img src="../assets/imagenes/Carrito.jpeg" alt="carrito de compras" width="2.5%">
+      <nav class="navbar navbar-expand-lg colorBarra">
+     <div class="container-fluid colorBorde">
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="itemsBarraNav" aria-current="page" href="../index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="itemsBarraNav" href="../pages/nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="itemsBarraNav" href="../pages/productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="itemsBarraNav" href="../pages/tutoriales.html">Tutoriales</a>
+        </li>
+        <li class="nav-item">
+          <a class="itemsBarraNav" href="../pages/contacto.html">Contacto</a>
+        </li>
+       </ul>
+       <form class="d-flex" role="search">
+        <input class="btnBusqueda" type="search" placeholder="search" aria-label="search"/>
+        <button class="btn btnNav" type="submit">Buscar</button>
+       </form>
+      </div>
      </div>
+   </nav>
+   <div class= "divCarrito">
+     <img src="../assets/imagenes/Carrito.jpeg" alt="carrito de compras" width="30px">
+   </div>
+
   </header>
 
     
 <main>
-    <section>
-      <img src="../assets/imagenes/tazas.jpeg" alt="tazas de cafe con bandejas con alfajores y masitas"width="100%" > 
-   
-    </section>
+    <div class="tutorial">
+      <h2>Aprende con nosotros</h2>
+      <img src="../assets/imagenes/chef.jpeg" alt="tazas de cafe con bandejas con alfajores y masitas"width="40%" > 
+      <hr class="relleno">
+    </div>
+<section class="tutorialConVideo">
+ <div class="container">
 
-    <section>  
-        <h2>Aprende con nosotros</h2>
-
+   <div class= "row"> 
+     <div class="col-xl-5">
+         <div class="tutorialImagen">
           <h3>Oreos bañadas</h3>
-          <img src="../assets/imagenes/oreos.jpeg" alt="mano tomando oreos bañadas de un pote" width="15%">
-          <video src="../assets/videos/videooreos.mp4" controls=""></video>
-    </section>
-    
+          <img src="../assets/imagenes/oreos.jpeg" alt="mano tomando oreos bañadas de un pote" width="70%">
+          <p>Animate a prepararlas, son muy sencillas de hacer!</p>
+        </div>
+     </div>
+     <video class="col-xl-7" src="../assets/videos/videooreos.mp4" controls=""></video>
+   </div>
 
+  <div class= "row">
+        <p class="col-md-6 col-xl-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, non corporis soluta voluptatem totam excepturi quae maxime ipsam facilis eius eaque nulla possimus quibusdam est quia, quaerat fuga impedit perferendis.</p>
+        <img src="./assets/imagenes/alfajoresvs.jpeg" alt="" class="col-md-6 col-xl-4">
+        
+  </div>
+
+  <div class= "row">
+        <img src="./assets/imagenes/alfajoresvs.jpeg" alt="" class="col-md-6 col-xl-4"> 
+        <p class="col-md-6 col-xl-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates est consequatur reiciendis voluptate voluptatem facilis provident ducimus eos inventore illum, possimus ab iure? Debitis magnam hic ea iste? Sed, molestias.</p>
+  </div>
+  
+
+</div>
+</section>
 </main>
 
   <footer class="footerp">

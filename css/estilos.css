@@ -293,7 +293,24 @@ article div {
    font-size: 50px;
    text-align: center;
 }
-
+.tutorial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(232, 230, 230);
+}
+.tutorialConVideo{
+    margin-top: 60px;
+}
+.tutorialImagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.relleno{
+    height: 20px;
+    background-color: rgb(232, 230, 230);
+}
 
 @media (max-width: 460px){
     
@@ -339,6 +356,9 @@ article div {
     }
     article p{
         font-size: 12px;
+    }
+    .enviosPedidos{
+        flex-direction: column;
     }
 }  
 
