@@ -14,21 +14,44 @@
    <header>
      <h1 class="tituloppal">MADTUTE</h1>
      <div class="divLogo">
-     <img src="../assets/imagenes/logoblanco.jpg" alt="logo de la empresa, gorro cocinero" width="10%">
+     <img class="gorro" src="../assets/imagenes/logoblanco.jpg" alt="logo de la empresa, gorro cocinero" width="10%">
      </div>
 
-     <nav class="nav-bar">
-        <ul class="navbar-ul">
-            <li class="navbar-li"><a class="navbar-a" href="../index.html">Inicio</a></li>
-            <li class="navbar-li"><a class="navbar-a" href="./nosotros.html">Nosotros</a></li>
-            <li class="navbar-li"><a class="navbar-a" href="./productos.html">Productos</a></li>
-            <li class="navbar-li"><a class="navbar-a" href="./tutoriales.html">Tutoriales</a></li>
-            <li class="navbar-li"><a class="navbar-a" href="./contacto.html">Contacto</a></li>
-        </ul>
-     </nav>
-     <div class= "divCarrito">
-      <img src="../assets/imagenes/Carrito.jpeg" alt="carrito de compras" width="2.5%">
+
+        <nav class="navbar navbar-expand-lg colorBarra">
+     <div class="container-fluid colorBorde">
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="itemsBarraNav" aria-current="page" href="../index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="itemsBarraNav" href="../pages/nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="itemsBarraNav" href="../pages/productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="itemsBarraNav" href="../pages/tutoriales.html">Tutoriales</a>
+        </li>
+        <li class="nav-item">
+          <a class="itemsBarraNav" href="../pages/contacto.html">Contacto</a>
+        </li>
+       </ul>
+       <form class="d-flex" role="search">
+        <input class="btnBusqueda" type="search" placeholder="search" aria-label="search"/>
+        <button class="btn btnNav" type="submit">Buscar</button>
+       </form>
+      </div>
      </div>
+   </nav>
+   <div class= "divCarrito">
+     <img src="../assets/imagenes/Carrito.jpeg" alt="carrito de compras" width="30px">
+   </div>
+
 
   </header>
 
@@ -40,14 +63,111 @@
           Tentate con nuestros productos
 
          </h2>
-           
+         <!--
           <div>
              <form action="">
                <input type="search" name="" id="">
                <input type="submit" value="Buscar">  
              </form>
-      
+            
           </div>
+        -->
+
+<div class="container-fluid text-center fondo">
+  <div class="row row-cols-2">
+    <div class="col">
+      <article>
+            <img src="../assets/imagenes/masas.jpeg"  alt="masas secas surtidas" width="100%" >
+            <h3>Masas</h3>
+            <p>$30000</p>
+            <button class="button-style">Comprar</button>
+
+          </article>
+    </div>
+    <div class="col">
+       <article>
+            <img src="../assets/imagenes/chocotorta.jpeg" alt="chocotorta" width="100%">
+            <h3>Chocotorta</h3>
+            <p>$30000</p>
+            <button class="button-style">Comprar</button>
+        </article>
+    </div>
+    <div class="col">
+      <article>
+            <img src="../assets/imagenes/rogel.jpeg" alt="rogel" width="100%">
+            <h3>Rogel</h3>
+            <p>$45000</p>
+            <button class="button-style"> Comprar </button>
+          </article>
+    </div>
+    <div class="col">
+      <article>
+            <img src="../assets/imagenes/chipa.jpeg"  alt="chipa" width="100%" >
+            <h3>Chipa por docena</h3>
+            <p>$18000</p>
+            <button class="button-style"> Comprar </button>          
+          </article>
+    </div>
+    <div class="col">
+       <article>
+            <img src="../assets/imagenes/grisines.jpeg" alt="grisines" width="100%">
+            <h3>Grisines</h3>
+            <p>$10000</p>
+            <button class="button-style"> Comprar </button>
+          </article>
+
+    </div>
+    <div class="col">
+       <article>
+            <img src="../assets/imagenes/panes.jpeg" alt="panes saborizados" width="100%">
+            <h3>Panes saborizados por docena</h3>
+            <p>$10000</p>
+            <button class="button-style"> Comprar </button>          
+          </article>
+    </div>
+    <div class="col">
+       <article>
+            <img src="../assets/imagenes/chessecake.jpeg" alt="chessecake con frutos rojos" width="100%">
+            <h3>Cheesecake frutos rojos</h3>
+            <p>$35000</p>
+            <button class="button-style"> Comprar </button>          
+          </article>
+    </div>
+
+        <div class="col">
+       <article>
+            <img src="../assets/imagenes/lemonpie.jpeg" alt="lemon pie" width="100%">
+            <h3>Lemon pie</h3>
+            <p>$35000</p>
+            <button class="button-style"> Comprar </button>          
+          </article>
+    </div>
+        <div class="col">
+       <article>
+            <img src="../assets/imagenes/shots.jpg" alt="shots de frutilla, chocotorta y lemon pie" width="100%">
+            <h3>Shots por docena</h3>
+            <p>$36000</p>
+            <button class="button-style"> Comprar </button>          
+          </article>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+<div class="articulos">
           <article>
             <img src="../assets/imagenes/masas.jpg"  alt="masas secas surtidas" width="20%" >
             <h3>Masas</h3>
@@ -91,9 +211,9 @@
             <p>$30000</p>
             <button class="button-style"> Comprar </button>          
           </article>
-    
-    
-        </section>
+   </div> 
+  -->
+      </section>
     
     </main>
 

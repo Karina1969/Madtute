@@ -17,7 +17,7 @@
 .parrafoInicio {
     font-family: "Sacramento";
     color: white;
-    font-size: 80px;
+    font-size: 100px;
     position: absolute;
 }
 .carouselOfertas{
@@ -173,13 +173,26 @@ h4{
     display:flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .envios h4{
     font-family: "Leckerli One", cursive;
     font-size: x-large;
 
 }
+.enviosP{
+    text-align: center;
+    ;
+}
 
+.articulos{
+    display: flex;
+    flex-direction: row;
+}
+
+.fondo{
+    background-color: rgb(232, 230, 230);
+}
 .footerp{
     display: flex;
     flex-direction: row;
@@ -306,17 +319,26 @@ article div {
         color: white;
         font-family: "Sacramento";
         position: absolute;
-        font-size: 35px;
+        font-size: 45px;
 
     }
     h2{
-        font-size: 36px;
+        font-size: 30px;
+    }
+    h3{
+        font-size: 25px;
     }
     .chef1 {
         font-size: 36px;
     }
     .chef {
         font-size:36px;
+    }
+    article h3{
+        font-size: 18px;
+    }
+    article p{
+        font-size: 12px;
     }
 }  
 
