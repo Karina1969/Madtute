@@ -4,7 +4,7 @@
 }
 
 .gorro{
-    width: 15%;
+    width: 200px;
 }
 .colorBorde{
     background-color: white;
@@ -19,6 +19,7 @@
     color: white;
     font-size: 100px;
     position: absolute;
+    text-align: center;
 }
 .carouselOfertas{
     display: flex;
@@ -26,7 +27,7 @@
     align-items: center;
 
 }
-hr{
+.hrnegra{
     background-color: black;
     margin-top: 50px;
     height: 10px;
@@ -311,6 +312,15 @@ article div {
     height: 20px;
     background-color: rgb(232, 230, 230);
 }
+.parrafoTutorial {
+   font-family:"Story Script", sans-serif, cursive;
+   font-size: 25px; 
+   text-align: center;
+}
+
+.barraSeparacion{
+    background-color:#cb1818;
+}
 
 @media (max-width: 460px){
     
@@ -360,5 +370,7 @@ article div {
     .enviosPedidos{
         flex-direction: column;
     }
-}  
+}  .gorro{
+    width: 150px;
+}
 
