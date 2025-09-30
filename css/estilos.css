@@ -25,8 +25,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
+.halloween{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
 .hrnegra{
     background-color: black;
     margin-top: 50px;
@@ -62,7 +69,7 @@
 
 h3{ 
     color: #fa2929;
-    font-size:30px;    
+    font-size: 24px;    
     font-family:"Story Script", sans-serif, cursive;
 
 }
@@ -112,7 +119,7 @@ h4{
 }
 
 .imgbanner{
-    width: 100%;
+    width: 80%;
     position: relative;
 
 }
@@ -240,6 +247,9 @@ article div {
     align-items: center;
 }
 
+.bordeSuperior{
+    margin-top: 80px;
+}
 
 .formularioContacto {
     display:flex;
@@ -320,9 +330,12 @@ article div {
 .aprende{
     width: 600px;
 }
-
 .barraSeparacion{
     background-color:#cb1818;
+}
+.fantasmas{
+   width: 80%;
+   height: 500px;
 }
 
 @media (max-width: 460px){
@@ -385,4 +398,19 @@ article div {
    .tutorialConVideo{
     margin-top: 10px;
    }
+   .row-cols-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   }
+   .row-cols-4>* {
+    width: 100%;
+   }
+   .imgbanner{
+    width: 100%;
+   }
+  .fantasmas{
+    height: 200px;
+  }
 }
