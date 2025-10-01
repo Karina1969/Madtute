@@ -140,7 +140,7 @@ h4{
     cursor: pointer;
     font-family:"Story Script", sans-serif, cursive;
 }
-
+/*
 .nav-bar{
     background-color: black; 
 }
@@ -170,6 +170,7 @@ h4{
     display: flex;
     justify-content: flex-end;
 }
+    */
 .enviosPedidos{
     display: flex;
     flex-direction: row;
