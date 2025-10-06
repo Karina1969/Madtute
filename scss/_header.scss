@@ -1,0 +1,55 @@
+.btnBusqueda {
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.btnNav{
+    @include buttons(white,black,0,0);
+}
+.itemsBarraNav {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: var(--bs-nav-link-font-weight);
+    color: $color-dos;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    font-family: $familiaSerif;
+}    
+.colorBorde{
+    background-color: $color-uno;
+}
+.parrafoInicio {
+    font-family: $familiaSacramento;
+    color: $color-uno;
+    font-size: 100px;
+    position: absolute;
+    text-align: $tcenter;
+}
+.divBanner{
+  @include flexColumn;
+  align-items: center;
+}
+.divLogo{
+    @include flexColumn;
+    align-items: center;
+    padding: 20px;
+}
+.divLogo2{
+    @include flexColumn;
+    position: absolute;
+    align-items: center;
+    padding-top: 300px;
+    color:white;
+    font-family: "Leckerli One", cursive;
+}
+.divCarrito{
+   @include flexRow;
+    justify-content: right;
+    padding: 15px;
+}
+.imgbanner{
+    width: 80%;
+    position: relative;
+}
+

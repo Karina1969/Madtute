@@ -1,0 +1,77 @@
+
+.halloween{
+    @include flexRow;
+    justify-content: center;
+    background-color: black;
+    margin-bottom: 40px;
+    margin-top: 50px
+}
+
+
+.carouselOfertas{
+   @include flexColumn;
+   align-items: center;
+}
+
+.enviosPedidos{
+    @include flexRow;
+    color: $color-dos;
+    justify-content: space-around;
+}       
+.envios{
+    @include flexColumn;
+    align-items: center;
+    
+}
+.envios h4{
+    font-family: $familiaLecker;
+    font-size: x-large;
+
+}
+.enviosP{
+    text-align: $tcenter;
+    ;
+}
+.articulos{
+   @include flexRow;
+}
+
+.nuestras-propuestas{
+   @include flexRow;
+}
+article {
+    padding: 10px;
+    border: solid 3px $color-dos;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.article-ppal{  
+    width: 100%;
+}
+
+article div {
+    @include flexColumn;
+    align-items: center;
+}
+.fantasmas{
+   width: 70%;
+   height: 500px;
+}
+.chef1{
+   font-family: $familiaSacramento;
+   font-size: 50px;
+   text-align: $tcenter;
+   color: #fa2929;
+   margin-top: 40px;
+   
+}
+.chef{
+   font-family:$familiaSacramento;
+   font-size: 50px;
+   text-align: $tcenter;
+}
+.fantasmas{
+   width: 70%;
+   height: 500px;
+}

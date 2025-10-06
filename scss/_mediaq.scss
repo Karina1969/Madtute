@@ -1,0 +1,73 @@
+@media (max-width: 460px){
+    
+    .nuestras-propuestas{
+     @include flexColumn();
+    } 
+    .navbar-ul{
+        flex-direction: column;
+        list-style: none; 
+        justify-content: center;
+    }
+    .footerp{
+    @include flexColumn();
+    background-color: $color-dos;
+    color: $color-uno;
+    }
+    .iconosSociales{
+        align-items: center;
+    }
+    .parrafoInicio{
+        color: $color-uno;
+        font-family: "Sacramento";
+        position: absolute;
+        font-size: 45px;
+
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .chef1 {
+        font-size: 36px;
+    }
+    .chef {
+        font-size:36px;
+    }
+    article h3{
+        font-size: 18px;
+    }
+    article p{
+        font-size: 12px;
+    }
+    .enviosPedidos{
+        flex-direction: column;
+    }
+   .gorro{
+    width: 150px;
+   }
+   .aprende{
+    width: 300px;
+   }
+   .parrafoTutorial{
+    font-size: 15px;
+   }
+   .tutorialConVideo{
+    margin-top: 10px;
+   }
+   .row-cols-4{
+    @include flexColumn();
+    align-items: center;
+    width: 100%;
+   }
+   .row-cols-4>* {
+    width: 100%;
+   }
+   .imgbanner{
+    width: 100%;
+   }
+  .fantasmas{
+    height: 200px;
+  }
+}

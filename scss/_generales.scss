@@ -1,0 +1,80 @@
+@mixin flexRow{
+    display:flex;
+    flex-direction: row;
+}
+@mixin flexColumn{
+    display:flex;
+    flex-direction: column;
+}
+@mixin buttons ($bg-color, $color, $padding,$mg-top){
+    background-color: $bg-color;
+    color:$color;
+    padding:$padding;
+    cursor: pointer;
+    font-family:$familiaSerif;
+    margin-top: $mg-top;
+}
+.button-style {
+    @include buttons (black,white,5px,0)
+}
+.button-style2 {
+    @include buttons(black,white ,10px ,40px)
+}
+.gorro{
+    width: 200px;
+}
+.tituloppal{
+    text-align: $tcenter; 
+}
+.hrnegra{
+    background-color: $color-dos;
+    margin-top: 50px;
+    height: 10px;
+}
+.colorBarra{
+    background-color: $color-dos;
+}
+h2 {
+    font-size:50px;
+    font-family: $familiaSerif;
+    padding: 20px;
+    text-align: center; 
+    color: #fa2929;
+}
+
+h3{ 
+    color: $color-tres;
+    font-size: 24px;    
+    font-family:$familiaSerif;
+
+}
+
+h4{
+    color: $color-uno;
+    font-size:25px;    
+    font-family: $familiaSerif;
+}
+.contenedor {
+    display:flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.busquedayCarrito{
+    display: flex;
+    justify-content: flex-end;
+}
+.fondo{
+    background-color: $color-cuatro;
+}
+.bordeSuperior{
+    margin-top: 80px;
+}
+.barraSeparacion{
+    background-color:$color-tres;
+}
+.relleno{
+    height: 20px;
+    background-color: $color-cuatro;
+}
+

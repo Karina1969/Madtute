@@ -1,0 +1,15 @@
+
+.formularioContacto {
+    @include flexColumn;
+    justify-content: center;
+}
+
+.formularioContacto2 {
+  @include flexColumn;
+    
+}
+.labelContacto{
+    padding: 20px;
+    font-family: $familiaSerif;
+}
+

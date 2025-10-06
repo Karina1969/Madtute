@@ -1,0 +1,383 @@
+/*siempre el archivo variables va primero, si es necesario lo repito en los otro scss*/
+.button-style {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  font-family: "Story Script", sans-serif, cursive;
+  margin-top: 0;
+}
+
+.button-style2 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-family: "Story Script", sans-serif, cursive;
+  margin-top: 40px;
+}
+
+.gorro {
+  width: 200px;
+}
+
+.tituloppal {
+  text-align: center;
+}
+
+.hrnegra {
+  background-color: black;
+  margin-top: 50px;
+  height: 10px;
+}
+
+.colorBarra {
+  background-color: black;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: "Story Script", sans-serif, cursive;
+  padding: 20px;
+  text-align: center;
+  color: #fa2929;
+}
+
+h3 {
+  color: #fa2929;
+  font-size: 24px;
+  font-family: "Story Script", sans-serif, cursive;
+}
+
+h4 {
+  color: white;
+  font-size: 25px;
+  font-family: "Story Script", sans-serif, cursive;
+}
+
+.contenedor {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.busquedayCarrito {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fondo {
+  background-color: rgb(232, 230, 230);
+}
+
+.bordeSuperior {
+  margin-top: 80px;
+}
+
+.barraSeparacion {
+  background-color: #fa2929;
+}
+
+.relleno {
+  height: 20px;
+  background-color: rgb(232, 230, 230);
+}
+
+.halloween {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.carouselOfertas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enviosPedidos {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  justify-content: space-around;
+}
+
+.envios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.envios h4 {
+  font-family: "Leckerli One", cursive;
+  font-size: x-large;
+}
+
+.enviosP {
+  text-align: center;
+}
+
+.articulos {
+  display: flex;
+  flex-direction: row;
+}
+
+.nuestras-propuestas {
+  display: flex;
+  flex-direction: row;
+}
+
+article {
+  padding: 10px;
+  border: solid 3px black;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.article-ppal {
+  width: 100%;
+}
+
+article div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fantasmas {
+  width: 70%;
+  height: 500px;
+}
+
+.chef1 {
+  font-family: "Sacramento", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #fa2929;
+  margin-top: 40px;
+}
+
+.chef {
+  font-family: "Sacramento", cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+.fantasmas {
+  width: 70%;
+  height: 500px;
+}
+
+.footerp {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.btnBusqueda {
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.btnNav {
+  background-color: white;
+  color: black;
+  padding: 0;
+  cursor: pointer;
+  font-family: "Story Script", sans-serif, cursive;
+  margin-top: 0;
+}
+
+.itemsBarraNav {
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: var(--bs-nav-link-font-weight);
+  color: black;
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  font-family: "Story Script", sans-serif, cursive;
+}
+
+.colorBorde {
+  background-color: white;
+}
+
+.parrafoInicio {
+  font-family: "Sacramento", cursive;
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  text-align: center;
+}
+
+.divBanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.divLogo2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  padding-top: 300px;
+  color: white;
+  font-family: "Leckerli One", cursive;
+}
+
+.divCarrito {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding: 15px;
+}
+
+.imgbanner {
+  width: 80%;
+  position: relative;
+}
+
+.formularioContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formularioContacto2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.labelContacto {
+  padding: 20px;
+  font-family: "Story Script", sans-serif, cursive;
+}
+
+.tutorial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(232, 230, 230);
+}
+
+.tutorialConVideo {
+  margin-top: 60px;
+}
+
+.tutorialImagen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parrafoTutorial {
+  font-family: "Story Script", sans-serif, cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+.aprende {
+  width: 600px;
+}
+
+.parrafoNosotros {
+  font-family: "Story Script", sans-serif, cursive;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 460px) {
+  .nuestras-propuestas {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-ul {
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+  }
+  .footerp {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+  }
+  .iconosSociales {
+    align-items: center;
+  }
+  .parrafoInicio {
+    color: white;
+    font-family: "Sacramento";
+    position: absolute;
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .chef1 {
+    font-size: 36px;
+  }
+  .chef {
+    font-size: 36px;
+  }
+  article h3 {
+    font-size: 18px;
+  }
+  article p {
+    font-size: 12px;
+  }
+  .enviosPedidos {
+    flex-direction: column;
+  }
+  .gorro {
+    width: 150px;
+  }
+  .aprende {
+    width: 300px;
+  }
+  .parrafoTutorial {
+    font-size: 15px;
+  }
+  .tutorialConVideo {
+    margin-top: 10px;
+  }
+  .row-cols-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .row-cols-4 > * {
+    width: 100%;
+  }
+  .imgbanner {
+    width: 100%;
+  }
+  .fantasmas {
+    height: 200px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

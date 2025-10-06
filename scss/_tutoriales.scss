@@ -1,0 +1,21 @@
+.tutorial {
+   @include flexColumn;
+    align-items: center;
+    background-color: rgb(232, 230, 230);
+}
+.tutorialConVideo{
+    margin-top: 60px;
+}
+.tutorialImagen{
+   @include flexColumn;
+    align-items: center;
+}
+.parrafoTutorial {
+   font-family:$familiaSerif;
+   font-size: 25px; 
+   text-align: $tcenter;
+}
+
+.aprende{
+    width: 600px;
+}

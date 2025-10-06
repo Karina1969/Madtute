@@ -1,0 +1,12 @@
+
+.footerp{
+   @include flexRow;
+    background-color: $color-dos;
+    color: $color-uno;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+    
