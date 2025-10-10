@@ -8,8 +8,26 @@
   margin-top: 0;
 }
 
+.button-style:hover {
+  background-color: #fa2929;
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+  font-family: "Story Script", sans-serif, cursive;
+  margin-top: 0;
+}
+
 .button-style2 {
   background-color: black;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-family: "Story Script", sans-serif, cursive;
+  margin-top: 40px;
+}
+
+.button-style2:hover {
+  background-color: rgb(89, 88, 88);
   color: white;
   padding: 10px;
   cursor: pointer;
@@ -69,6 +87,8 @@ h4 {
 
 .fondo {
   background-color: rgb(232, 230, 230);
+  background: #808080;
+  background: linear-gradient(26deg, rgb(128, 128, 128) 0%, rgb(169, 169, 169) 25%, rgb(169, 169, 169) 41%, rgb(211, 211, 211) 59%, rgb(240, 240, 240) 77%);
 }
 
 .bordeSuperior {
@@ -253,6 +273,10 @@ article div {
 .imgbanner {
   width: 80%;
   position: relative;
+}
+
+.rotate {
+  transform: rotate(45deg);
 }
 
 .formularioContacto {

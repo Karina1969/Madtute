@@ -17,8 +17,14 @@
 .button-style {
     @include buttons (black,white,5px,0)
 }
+.button-style:hover {
+    @include buttons (#fa2929,black,5px,0)
+}
 .button-style2 {
     @include buttons(black,white ,10px ,40px)
+}
+.button-style2:hover{
+    @include buttons(rgb(89, 88, 88),white,10px,40px)
 }
 .gorro{
     width: 200px;
@@ -66,6 +72,8 @@ h4{
 }
 .fondo{
     background-color: $color-cuatro;
+   background: #808080;
+background: linear-gradient(26deg, rgba(128, 128, 128, 1) 0%, rgba(169, 169, 169, 1) 25%, rgba(169, 169, 169, 1) 41%, rgba(211, 211, 211, 1) 59%, rgba(240, 240, 240, 1) 77%);
 }
 .bordeSuperior{
     margin-top: 80px;
@@ -77,4 +85,9 @@ h4{
     height: 20px;
     background-color: $color-cuatro;
 }
+
+
+
+
+
 
