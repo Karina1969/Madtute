@@ -44,6 +44,8 @@ article {
     border: solid 3px $color-dos;
     border-radius: 10px;
     margin: 10px;
+    background: #FFFFFF;
+    background: linear-gradient(211deg, rgba(255, 255, 255, 1) 34%, rgba(211, 211, 211, 1) 80%, rgba(46, 37, 37, 1) 100%);
 }
 
 .article-ppal{  
@@ -59,17 +61,13 @@ article div {
    height: 500px;
 }
 .chef1{
-   font-family: $familiaSacramento;
-   font-size: 50px;
-   text-align: $tcenter;
+   @include parrafotexto($familiaSacramento, 50px, $tcenter);
    color: #fa2929;
    margin-top: 40px;
    
 }
 .chef{
-   font-family:$familiaSacramento;
-   font-size: 50px;
-   text-align: $tcenter;
+   @include parrafotexto($familiaSacramento, 50px, $tcenter)
 }
 .fantasmas{
    width: 70%;

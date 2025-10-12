@@ -14,11 +14,22 @@
     font-family:$familiaSerif;
     margin-top: $mg-top;
 }
+@mixin parrafotexto ($fontfamily, $fontsize, $textalign){
+    font-family:$fontfamily;
+    font-size: $fontsize;
+    text-align: $textalign;
+}
+@keyframes beat {
+    0% {transform: scale(1)}
+    50%{transform: scale(1.1)}
+    100%{transform: scale(1)}
+}
 .button-style {
-    @include buttons (black,white,5px,0)
+    @include buttons (black,white,5px,0);
 }
 .button-style:hover {
-    @include buttons (#fa2929,black,5px,0)
+    @include buttons (#fa2929,black,5px,0);
+    animation : beat 0.5s ease-in-out;
 }
 .button-style2 {
     @include buttons(black,white ,10px ,40px)
@@ -41,10 +52,8 @@
     background-color: $color-dos;
 }
 h2 {
-    font-size:50px;
-    font-family: $familiaSerif;
+    @include parrafotexto ($familiaSerif, 50px,$tcenter );
     padding: 20px;
-    text-align: center; 
     color: #fa2929;
 }
 
@@ -72,8 +81,8 @@ h4{
 }
 .fondo{
     background-color: $color-cuatro;
-   background: #808080;
-background: linear-gradient(26deg, rgba(128, 128, 128, 1) 0%, rgba(169, 169, 169, 1) 25%, rgba(169, 169, 169, 1) 41%, rgba(211, 211, 211, 1) 59%, rgba(240, 240, 240, 1) 77%);
+    background: #FFFFFF;
+    background: linear-gradient(211deg, rgba(255, 255, 255, 1) 34%, rgba(211, 211, 211, 1) 80%, rgba(46, 37, 37, 1) 100%);
 }
 .bordeSuperior{
     margin-top: 80px;

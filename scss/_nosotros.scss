@@ -1,6 +1,4 @@
 .parrafoNosotros {
-   font-family:$familiaSerif;
-   font-size: 25px; 
-   text-align: $tcenter;
+ @include parrafotexto ($familiaSerif,25px,$tcenter);
    padding: 20px;
 }

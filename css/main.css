@@ -1,4 +1,15 @@
 /*siempre el archivo variables va primero, si es necesario lo repito en los otro scss*/
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .button-style {
   background-color: black;
   color: white;
@@ -15,6 +26,7 @@
   cursor: pointer;
   font-family: "Story Script", sans-serif, cursive;
   margin-top: 0;
+  animation: beat 0.5s ease-in-out;
 }
 
 .button-style2 {
@@ -54,10 +66,10 @@
 }
 
 h2 {
-  font-size: 50px;
   font-family: "Story Script", sans-serif, cursive;
-  padding: 20px;
+  font-size: 50px;
   text-align: center;
+  padding: 20px;
   color: #fa2929;
 }
 
@@ -87,8 +99,8 @@ h4 {
 
 .fondo {
   background-color: rgb(232, 230, 230);
-  background: #808080;
-  background: linear-gradient(26deg, rgb(128, 128, 128) 0%, rgb(169, 169, 169) 25%, rgb(169, 169, 169) 41%, rgb(211, 211, 211) 59%, rgb(240, 240, 240) 77%);
+  background: #FFFFFF;
+  background: linear-gradient(211deg, rgb(255, 255, 255) 34%, rgb(211, 211, 211) 80%, rgb(46, 37, 37) 100%);
 }
 
 .bordeSuperior {
@@ -156,6 +168,8 @@ article {
   border: solid 3px black;
   border-radius: 10px;
   margin: 10px;
+  background: #FFFFFF;
+  background: linear-gradient(211deg, rgb(255, 255, 255) 34%, rgb(211, 211, 211) 80%, rgb(46, 37, 37) 100%);
 }
 
 .article-ppal {
