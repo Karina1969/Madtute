@@ -107,5 +107,8 @@ h4{
     @include parrafotexto($familiaSerif, 30px,center);
     color: #fa2929;
     padding-top: 30px;
-
+}
+.divEventos{
+    display: flex;
+    flex-direction: column;
 }

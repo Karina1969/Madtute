@@ -135,6 +135,11 @@ h4 {
   padding-top: 30px;
 }
 
+.divEventos {
+  display: flex;
+  flex-direction: column;
+}
+
 .halloween {
   display: flex;
   flex-direction: row;
