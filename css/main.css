@@ -116,6 +116,25 @@ h4 {
   background-color: rgb(232, 230, 230);
 }
 
+.carritoCentrado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.collageeventos {
+  width: 80%;
+  padding-top: 40px;
+}
+
+.parrafoGral {
+  font-family: "Story Script", sans-serif, cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #fa2929;
+  padding-top: 30px;
+}
+
 .halloween {
   display: flex;
   flex-direction: row;

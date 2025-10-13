@@ -94,9 +94,18 @@ h4{
     height: 20px;
     background-color: $color-cuatro;
 }
+.carritoCentrado{
+    @include flexColumn;
+    justify-content: center;
+}
+.collageeventos{
+    width: 80%;
+    padding-top: 40px;
+}
 
+.parrafoGral{
+    @include parrafotexto($familiaSerif, 30px,center);
+    color: #fa2929;
+    padding-top: 30px;
 
-
-
-
-
+}
