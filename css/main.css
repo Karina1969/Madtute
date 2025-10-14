@@ -1,4 +1,4 @@
-/*siempre el archivo variables va primero, si es necesario lo repito en los otro scss*/
+/*siempre el archivo variables va primero, si es necesario lo repito en los otros scss*/
 @keyframes beat {
   0% {
     transform: scale(1);
@@ -65,6 +65,11 @@
   background-color: black;
 }
 
+.fondo {
+  background: #FFFFFF;
+  background: linear-gradient(211deg, rgb(255, 255, 255) 34%, rgb(211, 211, 211) 80%, rgb(46, 37, 37) 100%);
+}
+
 h2 {
   font-family: "Story Script", sans-serif, cursive;
   font-size: 50px;
@@ -97,10 +102,9 @@ h4 {
   justify-content: flex-end;
 }
 
-.fondo {
-  background-color: rgb(232, 230, 230);
-  background: #FFFFFF;
-  background: linear-gradient(211deg, rgb(255, 255, 255) 34%, rgb(211, 211, 211) 80%, rgb(46, 37, 37) 100%);
+.colorBorde {
+  background: #2E2525;
+  background: linear-gradient(211deg, rgb(46, 37, 37) 0%, rgb(255, 255, 255) 34%, rgb(211, 211, 211) 80%, rgb(46, 37, 37) 100%);
 }
 
 .bordeSuperior {
@@ -266,10 +270,6 @@ article div {
   font-family: "Story Script", sans-serif, cursive;
 }
 
-.colorBorde {
-  background-color: white;
-}
-
 .parrafoInicio {
   font-family: "Sacramento", cursive;
   color: white;
@@ -311,6 +311,7 @@ article div {
 .imgbanner {
   width: 80%;
   position: relative;
+  margin-bottom: 60px;
 }
 
 .rotate {
@@ -337,7 +338,6 @@ article div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(232, 230, 230);
 }
 
 .tutorialConVideo {

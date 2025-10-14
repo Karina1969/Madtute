@@ -16,9 +16,6 @@
     border: 0;
     font-family: $familiaSerif;
 }    
-.colorBorde{
-    background-color: $color-uno;
-}
 .parrafoInicio {
     font-family: $familiaSacramento;
     color: $color-uno;
@@ -51,6 +48,7 @@
 .imgbanner{
     width: 80%;
     position: relative;
+    margin-bottom: 60px;
 }
 .rotate {
     transform:rotate(45deg);
