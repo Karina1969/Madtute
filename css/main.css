@@ -17,6 +17,7 @@
   cursor: pointer;
   font-family: "Story Script", sans-serif, cursive;
   margin-top: 0;
+  border-radius: 12px;
 }
 
 .button-style:hover {
@@ -84,13 +85,13 @@ h2 {
 
 h3 {
   color: #fa2929;
-  font-size: 24px;
+  font-size: 25px;
   font-family: "Story Script", sans-serif, cursive;
 }
 
 h4 {
   color: white;
-  font-size: 25px;
+  font-size: 18px;
   font-family: "Story Script", sans-serif, cursive;
 }
 
@@ -148,7 +149,7 @@ h4 {
   flex-direction: column;
 }
 
-.botonesProductos {
+.botonesPagProductos {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -413,16 +414,13 @@ article div {
     font-size: 30px;
   }
   h3 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .chef1 {
     font-size: 36px;
   }
   .chef {
     font-size: 36px;
-  }
-  article h3 {
-    font-size: 18px;
   }
   article p {
     font-size: 12px;
