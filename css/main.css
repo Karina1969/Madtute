@@ -13,7 +13,7 @@
 .button-style {
   background-color: black;
   color: white;
-  padding: 5px;
+  padding: 10px;
   cursor: pointer;
   font-family: "Story Script", sans-serif, cursive;
   margin-top: 0;
@@ -22,7 +22,7 @@
 .button-style:hover {
   background-color: #fa2929;
   color: black;
-  padding: 5px;
+  padding: 10px;
   cursor: pointer;
   font-family: "Story Script", sans-serif, cursive;
   margin-top: 0;
@@ -146,6 +146,13 @@ h4 {
 .divEventos {
   display: flex;
   flex-direction: column;
+}
+
+.botonesProductos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 50px;
 }
 
 .halloween {
