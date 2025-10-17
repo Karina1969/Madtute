@@ -113,7 +113,7 @@ h4 {
 }
 
 .bordeSuperior {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .barraSeparacion {
@@ -455,6 +455,9 @@ article div {
   .fantasmas {
     width: 100%;
     height: 200px;
+  }
+  .bordeSuperior {
+    margin-top: 20px;
   }
 }
 
