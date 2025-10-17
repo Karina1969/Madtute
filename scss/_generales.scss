@@ -38,7 +38,7 @@
     @include buttons(rgb(89, 88, 88),white,10px,40px)
 }
 .gorro{
-    width: 200px;
+    width: 120px;
 }
 .tituloppal{
     text-align: $tcenter; 
@@ -54,6 +54,9 @@
 .fondo{
     background: #FFFFFF;
     background: linear-gradient(211deg, rgba(255, 255, 255, 1) 34%, rgba(211, 211, 211, 1) 80%, rgba(46, 37, 37, 1) 100%);
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2 {
     @include parrafotexto ($familiaSerif, 50px,$tcenter );

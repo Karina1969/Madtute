@@ -30,7 +30,12 @@
 .divLogo{
     @include flexColumn;
     align-items: center;
-    padding: 20px;
+}
+.divHeader{
+    @include flexRow;
+    align-items: center;
+    justify-content:space-around;
+
 }
 .divLogo2{
     @include flexColumn;
