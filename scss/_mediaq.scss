@@ -54,14 +54,7 @@
    .tutorialConVideo{
     margin-top: 10px;
    }
-   .row-cols-4{
-    @include flexColumn();
-    align-items: center;
-    width: 100%;
-   }
-   .row-cols-4>* {
-    width: 100%;
-   }
+ 
    .imgbanner{
     width: 100%;
    }
