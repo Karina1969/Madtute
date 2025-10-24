@@ -70,10 +70,9 @@ h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2 {
-    @include parrafotexto ($familiaSerif, 40px,$tcenter );
+    @include parrafotexto ($familiaSerif, 40px,$tcenter);
     padding: 20px;
-    color: #fa2929;
-    
+    color:#fa2929;
 
 }
 
@@ -160,7 +159,7 @@ h5{
     color: $color-dos;
     font-size:20px;    
     font-family: $familiaSerif;
-    padding: 60px;
+    padding: 70px;
     background-color: $color-cuatro ;
     text-align: center;
 }
