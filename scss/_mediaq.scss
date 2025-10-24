@@ -65,4 +65,18 @@
   .bordeSuperior{
     margin-top: 20px;
   }
+  .eventoMensual{
+    @include flexColumn;
+}
+  .carouselBanner{
+    height: auto;
+
+}
+.novedadesImagenes{
+    @include flexColumn;  
+
+}
+.novedadesImagenes img{
+    width: 100%;
+}
 }

@@ -21,7 +21,7 @@
 }
 
 .button-style:hover {
-  background-color: #fa2929;
+  background-color: rgb(232, 230, 230);
   color: black;
   padding: 10px;
   cursor: pointer;
@@ -46,6 +46,27 @@
   cursor: pointer;
   font-family: "Story Script", sans-serif, cursive;
   margin-top: 40px;
+}
+
+.button-style3 {
+  margin-top: 10px;
+  background-color: black;
+  color: black;
+  padding: 10;
+  cursor: pointer;
+  font-family: "Story Script", sans-serif, cursive;
+  margin-top: 10;
+  border-radius: 12px;
+}
+
+.button-style3:hover {
+  background-color: #fa2929;
+  color: black;
+  padding: 10;
+  cursor: pointer;
+  font-family: "Story Script", sans-serif, cursive;
+  margin-top: 10;
+  animation: beat 0.5s ease-in-out;
 }
 
 .gorro {
@@ -77,7 +98,7 @@ h1 {
 
 h2 {
   font-family: "Story Script", sans-serif, cursive;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   padding: 20px;
   color: #fa2929;
@@ -91,6 +112,12 @@ h3 {
 
 h4 {
   color: white;
+  font-size: 18px;
+  font-family: "Story Script", sans-serif, cursive;
+}
+
+h5 {
+  color: black;
   font-size: 18px;
   font-family: "Story Script", sans-serif, cursive;
 }
@@ -156,6 +183,72 @@ h4 {
   margin: 50px;
 }
 
+.promoMes {
+  color: black;
+  font-size: 20px;
+  font-family: "Story Script", sans-serif, cursive;
+}
+
+.promoMensual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.novedadesTexto {
+  background-color: black;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.parrafoPpal {
+  color: black;
+  font-size: 20px;
+  font-family: "Story Script", sans-serif, cursive;
+  padding: 60px;
+  background-color: rgb(232, 230, 230);
+  text-align: center;
+}
+
+.novedades {
+  margin: 80px;
+}
+
+.CarouselDoble {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.carouselBanner {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carouselBanner:hover {
+  opacity: 0.6;
+  animation: beat 0.5s ease-in-out;
+}
+
+.carouselBanner2 {
+  height: 400px;
+  object-fit: cover;
+}
+
+.carouselNovedades {
+  padding: 100px;
+  background-color: rgb(232, 230, 230);
+}
+
+.parrafoMarco {
+  padding: 10px;
+  color: black;
+  text-align: center;
+  margin: 0 150px;
+}
+
 .halloween {
   display: flex;
   flex-direction: row;
@@ -163,6 +256,12 @@ h4 {
   background-color: black;
   margin-bottom: 40px;
   margin-top: 50px;
+}
+
+.eventoMensual {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .carouselOfertas {
@@ -205,15 +304,14 @@ h4 {
 
 article {
   padding: 10px;
-  border: solid 3px black;
   border-radius: 10px;
   margin: 10px;
-  background: #FFFFFF;
   background: linear-gradient(211deg, rgb(255, 255, 255) 34%, rgb(211, 211, 211) 80%, rgb(46, 37, 37) 100%);
 }
 
 .article-ppal {
   width: 100%;
+  border-radius: 10px;
 }
 
 article div {
@@ -244,6 +342,25 @@ article div {
 .fantasmas {
   width: 70%;
   height: 500px;
+}
+
+.novedades {
+  display: flex;
+  flex-direction: column;
+}
+
+.novedadesImagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.bordeRedondeado {
+  border-radius: 15px;
+}
+
+.cuadroNovedades {
+  padding: 20px;
 }
 
 .footerp {
@@ -449,6 +566,20 @@ article div {
   }
   .bordeSuperior {
     margin-top: 20px;
+  }
+  .eventoMensual {
+    display: flex;
+    flex-direction: column;
+  }
+  .carouselBanner {
+    height: auto;
+  }
+  .novedadesImagenes {
+    display: flex;
+    flex-direction: column;
+  }
+  .novedadesImagenes img {
+    width: 100%;
   }
 }
 

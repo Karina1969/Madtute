@@ -8,6 +8,10 @@
 }
 
 
+.eventoMensual{
+    @include flexRow;
+    justify-content:space-evenly;
+}
 .carouselOfertas{
    @include flexColumn;
    align-items: center;
@@ -41,15 +45,15 @@
 }
 article {
     padding: 10px;
-    border: solid 3px $color-dos;
     border-radius: 10px;
     margin: 10px;
-    background: #FFFFFF;
     background: linear-gradient(211deg, rgba(255, 255, 255, 1) 34%, rgba(211, 211, 211, 1) 80%, rgba(46, 37, 37, 1) 100%);
+
 }
 
 .article-ppal{  
     width: 100%;
+    border-radius: 10px;
 }
 
 article div {
@@ -72,4 +76,19 @@ article div {
 .fantasmas{
    width: 70%;
    height: 500px;
+}
+.novedades{
+    @include flexColumn;
+}
+.novedadesImagenes{
+    @include flexRow;
+    justify-content: space-evenly;
+   
+
+}
+.bordeRedondeado{
+    border-radius: 15px;
+}
+.cuadroNovedades{
+    padding: 20px;
 }

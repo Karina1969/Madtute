@@ -29,7 +29,7 @@
     border-radius: 12px;
 }
 .button-style:hover {
-    @include buttons (#fa2929,black,10px,0);
+    @include buttons ($color-cuatro,black,10px,0);
     animation : beat 0.5s ease-in-out;
 }
 .button-style2 {
@@ -37,6 +37,16 @@
 }
 .button-style2:hover{
     @include buttons(rgb(89, 88, 88),white,10px,40px)
+}
+.button-style3{
+    margin-top: 10px;
+    @include buttons(black, black, 10, 10);
+    border-radius:12px;
+}
+.button-style3:hover{
+    @include buttons (#fa2929,black,10,10);
+    animation : beat 0.5s ease-in-out;
+
 }
 .gorro{
     width: 120px;
@@ -60,9 +70,11 @@ h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2 {
-    @include parrafotexto ($familiaSerif, 50px,$tcenter );
+    @include parrafotexto ($familiaSerif, 40px,$tcenter );
     padding: 20px;
     color: #fa2929;
+    
+
 }
 
 h3{ 
@@ -76,6 +88,12 @@ h4{
     color: $color-uno;
     font-size:18px;    
     font-family: $familiaSerif;
+}
+h5{
+    color: $color-dos;
+    font-size:18px;    
+    font-family: $familiaSerif;
+
 }
 .contenedor {
     display:flex;
@@ -122,4 +140,64 @@ h4{
    @include flexRow;
    justify-content: space-evenly;
    margin: 50px;
+}
+.promoMes{
+    color: $color-dos;
+    font-size:20px;    
+    font-family: $familiaSerif;
+}
+.promoMensual{
+    @include flexColumn();
+    align-items: center;
+}
+.novedadesTexto{
+   background-color: $color-dos;
+   text-align: $tcenter;
+   margin-top: 20px;
+   border-radius: 10px;
+}
+.parrafoPpal{
+    color: $color-dos;
+    font-size:20px;    
+    font-family: $familiaSerif;
+    padding: 60px;
+    background-color: $color-cuatro ;
+    text-align: center;
+}
+.novedades{
+    margin:80px;
+}
+.CarouselDoble{
+    @include flexRow();
+    
+    justify-content: space-between;
+   
+}
+.carouselBanner{
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.carouselBanner:hover{
+    opacity: 0.6;
+    animation : beat 0.5s ease-in-out;
+
+
+}
+.carouselBanner2{
+    height: 400px;
+    object-fit: cover;
+
+}
+.carouselNovedades{
+    padding: 100px;
+    background-color:$color-cuatro;
+
+}
+.parrafoMarco{
+    padding: 10px;
+    color: $color-dos;
+    text-align: center;
+    margin: 0 150px;
+
 }
