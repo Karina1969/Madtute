@@ -26,6 +26,8 @@
 .divBanner{
   @include flexColumn;
   align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .divLogo{
     @include flexColumn;
@@ -53,7 +55,6 @@
 .imgbanner{
     width: 80%;
     position: relative;
-    margin-bottom: 60px;
 }
 .rotate {
     transform:rotate(45deg);

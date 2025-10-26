@@ -61,10 +61,7 @@ article div {
     @include flexColumn;
     align-items: center;
 }
-.fantasmas{
-   width: 70%;
-   height: 500px;
-}
+
 .chef1{
    @include parrafotexto($familiaSacramento, 50px, $tcenter);
    color: #fa2929;
@@ -74,10 +71,7 @@ article div {
 .chef{
    @include parrafotexto($familiaSacramento, 50px, $tcenter)
 }
-.fantasmas{
-   width: 70%;
-   height: 500px;
-}
+
 .novedades{
     @include flexColumn;
 }
