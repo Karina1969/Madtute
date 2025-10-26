@@ -253,6 +253,15 @@ h5 {
   background: linear-gradient(211deg, rgb(46, 37, 37) 0%, rgb(255, 255, 255) 34%, rgb(211, 211, 211) 80%, rgb(46, 37, 37) 100%);
 }
 
+.fondoMedio {
+  background-color: rgb(211, 211, 211);
+}
+
+.relleno {
+  height: 80px;
+  background: linear-gradient(211deg, rgb(46, 37, 37) 0%, rgb(255, 255, 255) 34%, rgb(211, 211, 211) 80%, rgb(46, 37, 37) 100%);
+}
+
 .halloween {
   display: flex;
   flex-direction: row;
@@ -304,6 +313,7 @@ h5 {
 .nuestras-propuestas {
   display: flex;
   flex-direction: row;
+  padding: 20px;
 }
 
 article {
@@ -369,6 +379,32 @@ article div {
 
 .img100 {
   width: 100px;
+}
+
+.parrafoFijo {
+  font-family: "Story Script", sans-serif, cursive;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  padding-top: 500px;
+}
+
+.imgbannerDos {
+  width: 100%;
+  position: relative;
+  margin: 60px 0 0 0;
+  opacity: 70%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.parrafoInvitacion {
+  font-family: "Story Script", sans-serif, cursive;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(232, 230, 230);
 }
 
 .footerp {
@@ -591,6 +627,29 @@ article div {
   }
   .novedadesImagenes img {
     width: 100%;
+  }
+  .parrafoFijo {
+    font-family: "Story Script", sans-serif, cursive;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    padding-top: 450px;
+  }
+  .imgbannerDos {
+    width: 100%;
+    position: relative;
+    margin: 60px 0 0 0;
+    opacity: 70%;
+    height: 600px;
+    object-fit: cover;
+  }
+  .parrafoInvitacion {
+    font-family: "Story Script", sans-serif, cursive;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(232, 230, 230);
   }
 }
 

@@ -81,4 +81,27 @@
 .novedadesImagenes img{
     width: 100%;
 }
+.parrafoFijo {
+    font-family: $familiaSerif;
+    color: $color-uno;
+    font-size: 20px;
+    position: absolute;
+    text-align: $tcenter;
+    padding-top: 450px;
+}
+.imgbannerDos{
+    width: 100%;
+    position: relative;
+    margin: 60px 0 0 0;
+    opacity: 70%;
+    height: 600px;
+    object-fit: cover;
+}
+.parrafoInvitacion{
+    font-family: $familiaSerif;
+    color: $color-dos;
+    font-size: 20px;
+    text-align: $tcenter;
+    background-color: $color-cuatro;
+}
 }
